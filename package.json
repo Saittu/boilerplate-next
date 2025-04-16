@@ -13,7 +13,7 @@
     "generate": "npx plop --plopfile generators/plopfile.js",
     "test": "jest --maxWorkers=50% --passWithNoTests",
     "test:watch": "jest --watch --maxWorkers=25%",
-    "test:ci": "jest --runInBand",
+    "test:ci": "jest --runInBand --passWithNoTests",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

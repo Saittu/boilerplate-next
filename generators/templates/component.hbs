@@ -1,12 +1,11 @@
-import { FC } from 'react';
 
 export type {{pascalCase name}}Props = {
   title?: string;
 };
 
-export const {{pascalCase name}}: FC<{{pascalCase name}}Props> = ({
+export const {{pascalCase name}} = ({
   title = '{{pascalCase name}}',
-}) => {
+}: {{pascalCase}}Props) => {
   return (
     <div>
       <h1 className="text-4xl font-bold underline">{title}</h1>
