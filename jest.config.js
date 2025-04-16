@@ -17,11 +17,5 @@ export default {
     '\\.stories\\.tsx$',
     '/.storybook/',
     'index\\.ts$'
-  ],
-  moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1', // Alias @/ → src/
-    '^@components/(.*)$': '<rootDir>/src/components/$1' // Exemplo específico
-  },
-  testMatch: ['**/__tests__/**/*.test.ts?(x)'],
-  clearMocks: true
+  ]
 }
