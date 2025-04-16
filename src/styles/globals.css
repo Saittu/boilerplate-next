@@ -8,6 +8,18 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-primary: #f231a5;
+  --color-secondary: #3cd3c1;
+  --color-mainBg: #06092b;
+  --color-lightBg: #f2f2f2;
+  --color-white: #fafafa;
+  --color-black: #030517;
+  --color-lightGray: #eaeaea;
+  --color-gray: #8f8f8f;
+  --color-darkGray: #2e2d42;
+  --color-red: #ff5f5f;
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -17,6 +29,12 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+html,
+body,
+#__next {
+  height: 100%;
 }
 
 body {
